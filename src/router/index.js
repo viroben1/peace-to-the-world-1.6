@@ -1,19 +1,26 @@
 // router/index.js
 
 import { createRouter, createWebHistory } from 'vue-router';
-import Home from '../views/Home.vue';
+
+import HomePage from '../views/HomeView.vue';
 import PrivacyPolicy from '../views/PrivacyPolicy.vue';
 import RefundPolicy from '../views/RefundPolicy.vue';
-import DeliveryPolicy from '../views/DeliveryPolicy.vue';
+import DeliveryPolicy from '../views/DeliveryPolicyView.vue';
 import TermsAndConditions from '../views/TermsAndConditions.vue';
 import FlagView from '../views/FlagView.vue'; // Import your FlagView
-
+import AboutPage from '../views/AboutView.vue'
 const routes = [
   {
-    path: '/',
-    name: 'Home',
-    component: Home,
+    path: '/HomePage',
+    name: 'HomePage',
+    component: HomePage,
   },
+  {
+    path: '/about',
+    name: 'AboutPage',
+    component: AboutPage,
+  },
+  
   {
     path: '/privacy',
     name: 'PrivacyPolicy',
@@ -47,3 +54,5 @@ const router = createRouter({
 });
 
 export default router;
+// router/index.js
+

@@ -1,19 +1,19 @@
 <template>
     <div>
       <HomeContent v-if="isPolicyPage" />
-      <MainPage v-else />
+      <HomePage v-else />
     </div>
   </template>
   
   <script>
   import HomeContent from '@/components/HomeContent.vue';
-  import MainPage from '@/components/MainPage.vue';
+  import HomePage from '@/components/HomePage.vue';
   
   export default {
-    name: 'MainPageView',
+    name: 'HomeView',
     components: {
       HomeContent,
-      MainPage,
+      HomePage,
     },
     data() {
       return {

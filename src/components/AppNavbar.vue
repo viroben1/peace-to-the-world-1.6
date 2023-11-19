@@ -2,10 +2,10 @@
     <nav class="bg-green-500 p-4">
       <div class="container mx-auto">
         <div class="flex justify-between items-center">
-          <router-link to="/" class="text-white text-2xl font-bold">Your Site Name</router-link>
+          <router-link to="/" class="text-white text-2xl font-bold">PeaceToTheWorld-Flag</router-link>
           <ul class="flex space-x-4">
             <li>
-              <router-link to="/home" class="text-white" active-class="active">
+              <router-link to="/HomePage" class="text-white" active-class="active">
                 Home
               </router-link>
             </li>
